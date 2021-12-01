@@ -1,0 +1,25 @@
+package aoc2021;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Aoc2021Dag1 {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		
+		Scanner scan = new Scanner(new File("aocDag1.txt"));
+		ArrayList<Integer> list = new ArrayList<>();
+		int i = scan.nextInt();
+		while (scan.hasNextLine()) {
+			Int i = scan.nextInt();
+			list.add(i);
+		}
+		
+		System.out.println(list.get(0));
+		System.out.println(list.get(1));
+	}
+
+}
+

@@ -1,0 +1,10 @@
+package aoc2021;
+
+public class Aoc2021Dag1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
